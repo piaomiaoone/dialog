@@ -26,7 +26,7 @@
  		control.find(">[data-tab='" + tabName + "']").addClass("active");
  	});
 
- 	//激活第一个选项卡
+ 	// 激活第一个选项卡
  	var firstName = element.find("li:first").attr("data-tab");
  	element.trigger("change.tabs", firstName);
 
